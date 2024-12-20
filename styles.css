@@ -16,8 +16,10 @@ body {
     padding: 20px;
     text-align: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 80%; /* 设置宽度，使其适应小屏幕 */
+    max-width: 400px; /* 设置最大宽度，防止在大屏幕上过宽 */
 }
 
 #time {
-    font-size: 48px;
+    font-size: 6vw; /* 使用相对单位，使字体大小随屏幕大小调整 */
 }
