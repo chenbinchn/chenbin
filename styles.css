@@ -1,8 +1,14 @@
 /* styles.css */
 body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100vh;
     margin: 0;
     background-color: #282c34;
@@ -15,7 +21,8 @@ body {
     border-radius: 10px;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     width: 80%; /* 设置宽度，使其适应小屏幕 */
     max-width: 400px; /* 设置最大宽度，防止在大屏幕上过宽 */
 }
